@@ -39,6 +39,53 @@ h6 {
     padding: 0;
 }
 
+.skill-name svg {
+  cursor: pointer;
+  user-select: none;
+}
+
+.skill-name {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* jarak teks & icon */
+}
+
+.skill-name svg {
+  transition: 0.3s;
+}
+
+.skill-name:hover svg {
+  transform: scale(1.2);
+}
+
+.skills-right {
+  margin-top: 40px; /* sesuaikan biar sejajar sama "Software Skills" */
+}
+
+.skills-right .skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  align-items: flex-start;
+}
+
+.skills h3 {
+  margin-top: 0;
+}
+
+.skills {
+  margin-top: 0;
+}
+
+svg:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
